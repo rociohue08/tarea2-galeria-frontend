@@ -1,0 +1,48 @@
+
+body{
+    background-color: rgb(51, 36, 36);
+    height: 100vh;
+}
+
+h1{
+    padding-top: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:monospace;
+}
+.flex-container{
+    padding-top: 75px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-content: center;
+    padding-bottom: 50px;
+  
+}
+.contenedorImagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    margin: 4px;
+    
+}
+
+.contenedorImagen img {
+    max-width: 100%; 
+    height: auto;
+}
+
+footer{
+    background: rgba(20, 56, 8, 0.87);
+    height:15%;
+    margin-top: 120px;
+    text-align: center;
+}
+
+footer p{
+    padding-top: 20px;
+    font-size: large;
+    font-family:monospace;
+    color: white;
+}
